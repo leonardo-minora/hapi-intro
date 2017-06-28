@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API e teste desta - um exemplo de aula",
+  "main": "app/server.js",
+  "scripts": {
+    "start": "node app/server",
+    "test": "jasmine-node test/"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "webservice",
+    "nodejs",
+    "test"
+  ],
+  "author": "Minora",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.4.3",
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.2.0",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "frisby": "^0.8.5"
+  }
+}
