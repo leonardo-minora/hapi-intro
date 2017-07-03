@@ -1,0 +1,19 @@
+{
+  "connection": {
+    "host": "localhost",
+    "port": 8080
+  },
+  "swagger": {
+    "info": {
+      "title": "Teste de documentação de API",
+      "version": "1",
+      "description": "Aplicativo exemplo para mostrar o desenvolvimento de API e documentação em JS",
+      "contact": {
+        "name": "MINORA Leonardo",
+        "email": "leonardo.minora@ifrn.edu.br"
+      }
+    },
+    "documentationPath": "/doc/"
+  },
+  "routes": "./app/routes/*.route.js"
+}

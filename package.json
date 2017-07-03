@@ -18,6 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "hapi": "^16.4.3",
+    "hapi-router": "^3.5.0",
     "hapi-swagger": "^7.7.0",
     "inert": "^4.2.0",
     "vision": "^4.1.1"

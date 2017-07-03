@@ -4,13 +4,13 @@ frisby.create('Verficiando o ROOT da App')
   .get('http://localhost:8080')
   .expectStatus(200)
   .expectJSON({
-    info:'api exemplo',
+    info:'Teste de documentação de API',
     versao: 1
   })
 .toss();
 
-frisby.create('Verficiando o ROOT da App')
-  .get('http://localhost:8080/status')
+frisby.create('Verficiando o estado da API')
+  .get('http://localhost:8080/estado')
   .expectStatus(200)
   .expectJSON({
     estado: 'online'
